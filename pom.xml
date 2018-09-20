@@ -9,10 +9,26 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.zenjava/javafx-maven-plugin -->
         <dependency>
-            <groupId>com.oracle.javafx</groupId>
-            <artifactId>favafx</artifactId>
-            <version>2.1</version>
+            <groupId>com.zenjava</groupId>
+            <artifactId>javafx-maven-plugin</artifactId>
+            <version>8.1.2</version>
         </dependency>
     </dependencies>
+
+
+    <!--<build>-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>com.zenjava</groupId>-->
+                <!--<artifactId>javafx-maven-plugin</artifactId>-->
+                <!--<version>8.8.3</version>-->
+                <!--<configuration>-->
+                    <!--<vendor>CatolicaSC</vendor>-->
+                    <!--<mainClass>br.org.catolicasc.parking.Main</mainClass>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</build>-->
 </project>
