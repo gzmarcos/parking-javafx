@@ -14,4 +14,5 @@
           xmlns="http://javafx.com/javafx/8"
           stylesheets="/sample.css"
           fx:controller="br.org.catolicasc.parking.SampleController">
+    <Button fx:id="closeButton" cancelButton="true" layoutX="350.0" layoutY="767.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" prefWidth="100.0" text="Close" />
 </GridPane>
