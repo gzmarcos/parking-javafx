@@ -17,18 +17,12 @@
         </dependency>
     </dependencies>
 
-
-    <!--<build>-->
-        <!--<plugins>-->
-            <!--<plugin>-->
-                <!--<groupId>com.zenjava</groupId>-->
-                <!--<artifactId>javafx-maven-plugin</artifactId>-->
-                <!--<version>8.8.3</version>-->
-                <!--<configuration>-->
-                    <!--<vendor>CatolicaSC</vendor>-->
-                    <!--<mainClass>br.org.catolicasc.parking.Main</mainClass>-->
-                <!--</configuration>-->
-            <!--</plugin>-->
-        <!--</plugins>-->
-    <!--</build>-->
+    <developers>
+        <developer>
+            <id>marcosgz</id>
+            <name>Marcos G. Zimmermann</name>
+            <email>mgzmaster@gmail.com</email>
+        </developer>
+        <!--@TODO Add all developers here-->
+    </developers>
 </project>
