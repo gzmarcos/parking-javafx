@@ -23,6 +23,11 @@
             <name>Marcos G. Zimmermann</name>
             <email>mgzmaster@gmail.com</email>
         </developer>
+        <developer>
+            <id>EsdrasXavier</id>
+            <name>Esdras X. Raimundo</name>
+            <email>esdrasxa@gmail.com</email>
+        </developer>
         <!--@TODO Add all developers here-->
     </developers>
 </project>
