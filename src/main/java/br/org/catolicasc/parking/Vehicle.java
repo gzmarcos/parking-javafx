@@ -1,19 +1,44 @@
 package br.org.catolicasc.parking;
 
-public class Vehicle {
-    private String color;
-    private String model;
-    private String plate;
+public abstract class Vehicle implements IVehicle {
+  protected String plate;
+  protected String model;
+  protected String color;
 
-    public String getColor() { return this.color; }
+  /**
+   * Return the car plate as string
+   * @return
+   */
+  public String getPlate() { return this.plate; }
 
-    public void setColor(String color) { this.color = color; }
+  /***
+   * Set the car plate
+   * @param plate
+   */
+  public void setPlate(String plate) { this.plate = plate; }
 
-    public String getModel() { return model; }
+  /***
+   * Return the car model
+   * @return
+   */
+  public String getModel() { return this.model; }
 
-    public void setModel(String model) { this.model = model; }
+  /***
+   * Set the car model
+   * @param model
+   */
+  public void setModel(String model) {this.model = model; }
 
-    public String getPlate() { return plate; }
+  /***
+   * Return the color of the car
+   * @return
+   */
+  public String getColor() {return this.color; }
 
-    public void setPlate(String plate) { this.plate = plate; }
+  /***
+   * Set the car color
+   * @param color
+   */
+  public void setColor(String color) {this.color = color; }
 }
+

@@ -18,6 +18,16 @@ public class Main extends Application {
 
 
   public static void main(String[] args) {
+
+    Car a = new Car();
+    a.setModel("Teste");
+    a.setColor("azul");
+    a.setPlate("ASD-9633");
+
+    System.out.println(a.getColor());
+    System.out.println(a.getModel());
+    System.out.println(a.getPlate());
+
     launch(args);
   }
 }
